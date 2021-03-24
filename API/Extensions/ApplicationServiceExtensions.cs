@@ -4,6 +4,9 @@ using MediatR;
 using AutoMapper;
 using Application.Activities;
 using Application.Core;
+using Microsoft.OpenApi.Models;
+using Persistence;
+using Microsoft.EntityFrameworkCore;
 
 namespace API.Extensions
 {
